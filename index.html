@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ================= BASIC ================= -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ================= TITLE (CTR + KEYWORD) ================= -->
+  <title>Fontixa – Free Stylish Font Generator for Instagram, Bio & Fancy Text</title>
+
+  <!-- ================= META DESCRIPTION ================= -->
+  <meta name="description"
+    content="Fontixa is a free online stylish font generator to create fancy, cool & Unicode fonts for Instagram bio, WhatsApp, Facebook, gaming usernames and creative text. No login required.">
+
+  <!-- ================= KEYWORDS (LIGHT USE) ================= -->
+  <meta name="keywords"
+    content="fontixa, font generator, stylish fonts, fancy text generator, instagram font style, unicode fonts, cool text, bio fonts">
+
+  <!-- ================= CRAWLING ================= -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+  <!-- ================= VIEWPORT ================= -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ================= CANONICAL ================= -->
+  <link rel="canonical" href="https://fontixa.com/">
+
+  <!-- ================= FAVICON ================= -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- ================= THEME COLOR ================= -->
+  <meta name="theme-color" content="#2563eb">
+
+  <!-- ================= OPEN GRAPH (SOCIAL SHARE) ================= -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fontixa – Free Stylish Font Generator">
+  <meta property="og:description"
+    content="Create stylish, fancy & Unicode fonts for Instagram bios, captions, usernames & social media using Fontixa.">
+  <meta property="og:url" content="https://fontixa.com/">
+  <meta property="og:site_name" content="Fontixa">
+  <meta property="og:image" content="https://fontixa.com/og-fontixa.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- ================= TWITTER CARD ================= -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fontixa – Stylish Font Generator">
+  <meta name="twitter:description"
+    content="Generate fancy fonts & stylish text instantly with Fontixa. Free & easy to use.">
+  <meta name="twitter:image" content="https://fontixa.com/og-fontixa.png">
+
+  <!-- ================= PERFORMANCE ================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- ================= CSS ================= -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ================= WEBSITE SCHEMA ================= -->
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://fontixa.com/#website",
+  "name": "Fontixa",
+  "alternateName": "Fontixa Font Generator",
+  "url": "https://fontixa.com/",
+  "description": "Fontixa is a free stylish font generator to create fancy, cool and Unicode text for Instagram, WhatsApp, Facebook, gaming usernames and creative use.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fontixa",
+    "url": "https://fontixa.com/"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://fontixa.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+  <!-- ================= SOFTWARE APPLICATION SCHEMA ================= -->
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://fontixa.com/#software",
+  "name": "Fontixa Font Generator",
+  "operatingSystem": "Web",
+  "applicationCategory": "DesignApplication",
+  "applicationSubCategory": "Font Generator",
+  "description": "Fontixa Font Generator is a free online tool that helps users create stylish, fancy and Unicode-based fonts for social media, bios, captions, and creative text.",
+  "url": "https://fontixa.com/",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+
+
+<body>
+
+  <header>
+    <div class="nav">
+      <a class="logo" href="index.html"><img src="fontixa-logo.png" alt="Fontixa logo">
+      </a>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Contactus.html">Contect</a>
+        <a href="Blog.html">Blog</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <section class="hero">
+      <h1>
+        Fontixa – Free Fancy Font Generator<br>
+        for <span class="typing" id="typing"></span>
+      </h1>
+      <p>
+        Create stylish fonts for Instagram, WhatsApp, Facebook & gaming usernames
+        using premium Unicode text styles. Copy & paste instantly.
+      </p>
+      <div class="stats">
+        <div class="stat">
+          <strong>10K+</strong>
+          <span>Font Styles</span>
+        </div>
+        <div class="stat">
+          <strong>50K+</strong>
+          <span>Fonts Generated</span>
+        </div>
+        <div class="stat">
+          <strong>100%</strong>
+          <span>Free & No Login</span>
+        </div>
+      </div>
+    </section>
+
+
+    <textarea id="input" rows="2" oninput="render()" placeholder="Enter your text here:"></textarea>
+
+    <div class="selectps">
+      <select id="prefixSelect">
+        <option value="" data-suffix="">Select Design→ ★彡[𝓯𝓸𝓷𝓽𝓲𝔁𝓪]彡★&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value="★彡[" data-suffix="]彡★">★彡[</option>
+        <option value="𓆩" data-suffix="𓆪">𓆩</option>
+
+        <option value="꧁𓊈𒆜" data-suffix="𒆜𓊉꧂">꧁𓊈𒆜</option>
+        <option value="꧁𓊈👑" data-suffix="👑𓊉꧂">꧁𓊈👑</option>
+        <option value="꧁𓊈🔥" data-suffix="🔥𓊉꧂">꧁𓊈🔥</option>
+        <option value="꧁𓊈⚔" data-suffix="⚔𓊉꧂">꧁𓊈⚔</option>
+        <option value="꧁𓊈💀" data-suffix="💀𓊉꧂">꧁𓊈💀</option>
+
+        <option value="💕✨♡" data-suffix="♡✨💕">💕✨♡</option>
+        <option value="💕💖" data-suffix="💖💕">💕💖</option>
+        <option value="💕❥✨" data-suffix="✨❥💕">💕❥✨</option>
+        <option value="💕ღ✨" data-suffix="✨ღ💕">💕ღ✨</option>
+        <option value="💕🎀✨" data-suffix="✨🎀💕">💕🎀✨</option>
+
+
+        <option value="▀▄▀▄▀▄" data-suffix="▄▀▄▀▄▀">▀▄▀▄▀▄</option>
+        <option value="▄▀▄▀▄▀" data-suffix="▀▄▀▄▀▄">▄▀▄▀▄▀</option>
+        <option value="▀▄▀▄" data-suffix="▄▀▄▀">▀▄▀▄</option>
+        <option value="▄▀▄▀" data-suffix="▀▄▀▄">▄▀▄▀</option>
+
+        <option value="█▓▒░⡷⠂" data-suffix="⠂⡷░▒▓█">█▓▒░⡷⠂</option>
+        <option value="▓▒░⡷⠂" data-suffix="⠂⡷░▒▓">▓▒░⡷⠂</option>
+        <option value="█▓▒░" data-suffix="░▒▓█">█▓▒░</option>
+        <option value="░▒▓█⡷" data-suffix="⡷█▓▒░">░▒▓█⡷</option>
+        <option value="⡷░▒▓█" data-suffix="█▓▒░⡷">⡷░▒▓█</option>
+
+        <option value="👑✿" data-suffix="✿👑">👑✿</option>
+        <option value="👑❀" data-suffix="❀👑">👑❀</option>
+        <option value="👑☾" data-suffix="☽👑">👑☾</option>
+        <option value="👑✧" data-suffix="✧👑">👑✧</option>
+        <option value="👑¸.·✩·.¸" data-suffix="¸.·✩·.¸👑">👑¸.·✩·.¸</option>
+
+
+        <option value="¸.·✩·.¸¸.·¯⍣✩" data-suffix="✩⍣¯·.¸¸.·✩·.¸">¸.·✩·.¸¸.·¯⍣✩</option>
+        <option value="¸.·✩·.¸" data-suffix="¸.·✩·.¸">¸.·✩·.¸</option>
+        <option value="¸.·¯⍣✩" data-suffix="✩⍣¯·.¸">¸.·¯⍣✩</option>
+        <option value="¸.·✩⍣·.¸" data-suffix="¸.·⍣✩·.¸">¸.·✩⍣·.¸</option>
+        <option value="¸.·✩·¯⍣" data-suffix="⍣¯·✩·.¸">¸.·✩·¯⍣</option>
+
+        <option value="✧*🎀" data-suffix="🎀*✧">✧*🎀</option>
+        <option value="✧🎀" data-suffix="🎀✧">✧🎀</option>
+        <option value="✧*🌸" data-suffix="🌸*✧">✧*🌸</option>
+        <option value="✧*💖" data-suffix="💖*✧">✧*💖</option>
+        <option value="✧*🧸" data-suffix="🧸*✧">✧*🧸</option>
+
+        <option value="★:🎀" data-suffix="🎀:★">★:🎀</option>
+        <option value="★:🌸" data-suffix="🌸:★">★:🌸</option>
+        <option value="★:💖" data-suffix="💖:★">★:💖</option>
+        <option value="★:🧸" data-suffix="🧸:★">★:🧸</option>
+        <option value="★:✨" data-suffix="✨:★">★:✨</option>
+
+        <option value="(¯´•._.•" data-suffix="•._.•´¯)"> (¯´•._.•</option>
+        <option value="(¯´•_•" data-suffix="•_•´¯)"> (¯´•_•</option>
+        <option value="(¯´•.•" data-suffix="•.•´¯)"> (¯´•.•</option>
+        <option value="(¯´•‿•" data-suffix="•‿•´¯)"> (¯´•‿•</option>
+        <option value="(¯´•ᴗ•" data-suffix="•ᴗ•´¯)"> (¯´•ᴗ•</option>
+
+        <option value="¸¸♬·¯·♩¸¸♪·¯·♫¸¸" data-suffix="¸¸♫·¯·♪¸¸♩·¯·♬¸¸">¸¸♬·¯·♩¸¸♪·¯·♫¸¸</option>
+        <option value="¸¸♪·¯·♫¸¸" data-suffix="¸¸♫·¯·♪¸¸">¸¸♪·¯·♫¸¸</option>
+        <option value="¸¸♩·¯·♬¸¸" data-suffix="¸¸♬·¯·♩¸¸">¸¸♩·¯·♬¸¸</option>
+        <option value="¸¸♬·♪·♫¸¸" data-suffix="¸¸♫·♪·♬¸¸">¸¸♬·♪·♫¸¸</option>
+        <option value="¸¸♫·¯·♪¸¸" data-suffix="¸¸♪·¯·♫¸¸">¸¸♫·¯·♪¸¸</option>
+
+        <option value="▁▂▄▅▆▇█🎀" data-suffix="🎀█▇▆▅▄▂▁">▁▂▄▅▆▇█🎀</option>
+        <option value="▂▄▅▆▇█🎀" data-suffix="🎀█▇▆▅▄▂">▂▄▅▆▇█🎀</option>
+        <option value="▁▂▄▅🎀" data-suffix="🎀▅▄▂▁">▁▂▄▅🎀</option>
+        <option value="▅▆▇█🎀" data-suffix="🎀█▇▆▅">▅▆▇█🎀</option>
+        <option value="▁▃▄▆▇█🎀" data-suffix="🎀█▇▆▄▃▁">▁▃▄▆▇█🎀</option>
+
+        <option value="🎀▁▂▄▅" data-suffix="▅▄▂▁🎀">🎀▁▂▄▅</option>
+        <option value="🎀▅▆▇█" data-suffix="█▇▆▅🎀">🎀▅▆▇█</option>
+        <option value="🎀▂▄▆" data-suffix="▆▄▂🎀">🎀▂▄▆</option>
+        <option value="🎀▃▄▅▆" data-suffix="▆▅▄▃🎀">🎀▃▄▅▆</option>
+        <option value="🎀▁▃▄▆▇" data-suffix="▇▆▄▃▁🎀">🎀▁▃▄▆▇</option>
+
+        <option value="🌷✧･ﾟ:" data-suffix=":･ﾟ✧🌷">🌷✧･ﾟ:</option>
+        <option value="🌷❀" data-suffix="❀🌷">🌷❀</option>
+        <option value="🌷☾" data-suffix="☽🌷">🌷☾</option>
+        <option value="🌷✿" data-suffix="✿🌷">🌷✿</option>
+        <option value="🌷¸.·✩·.¸" data-suffix="¸.·✩·.¸🌷">🌷¸.·✩·.¸</option>
+
+        <option value="💖♡" data-suffix="♡💖">💖♡</option>
+        <option value="💖❤" data-suffix="❤💖">💖❤</option>
+        <option value="💖❥" data-suffix="❥💖">💖❥</option>
+        <option value="💖ღ" data-suffix="ღ💖">💖ღ</option>
+        <option value="💖🎀" data-suffix="🎀💖">💖🎀</option>
+
+        <option value="👑✧" data-suffix="✧👑">👑✧</option>
+        <option value="👑❀" data-suffix="❀👑">👑❀</option>
+        <option value="👑☾" data-suffix="☽👑">👑☾</option>
+        <option value="👑✿" data-suffix="✿👑">👑✿</option>
+        <option value="👑¸.·✩·.¸" data-suffix="¸.·✩·.¸👑">👑¸.·✩·.¸</option>
+
+
+
+        <option value="【" data-suffix="】">【</option>
+        <option value="『" data-suffix="』">『</option>
+        <option value="꧁" data-suffix="꧂">꧁</option>
+        <option value="👑" data-suffix="👑">👑</option>
+
+        <option value="༺" data-suffix="༻">༺</option>
+        <option value="✧･ﾟ:" data-suffix=":･ﾟ✧">✧･ﾟ:</option>
+        <option value="✦" data-suffix="✦">✦</option>
+        <option value="✿" data-suffix="✿">✿</option>
+        <option value="❖" data-suffix="❖">❖</option>
+        <option value="✪" data-suffix="✪">✪</option>
+
+        <option value="ꜰ★" data-suffix="★ꜰ">ꜰ★</option>
+        <option value="⟦" data-suffix="⟧">⟦</option>
+        <option value="⟪" data-suffix="⟫">⟪</option>
+        <option value="⟨" data-suffix="⟩">⟨</option>
+        <option value="〔" data-suffix="〕">〔</option>
+
+        <option value="❀" data-suffix="❀">❀</option>
+        <option value="♡" data-suffix="♡">♡</option>
+        <option value="❤" data-suffix="❤">❤</option>
+        <option value="❥" data-suffix="❥">❥</option>
+        <option value="ღ" data-suffix="ღ">ღ</option>
+
+        <option value="⚡" data-suffix="⚡">⚡</option>
+        <option value="🔥" data-suffix="🔥">🔥</option>
+        <option value="💀" data-suffix="💀">💀</option>
+        <option value="☠" data-suffix="☠">☠</option>
+        <option value="🕷" data-suffix="🕷">🕷</option>
+
+        <option value="⛧" data-suffix="⛧">⛧</option>
+        <option value="☬" data-suffix="☬">☬</option>
+        <option value="⚔" data-suffix="⚔">⚔</option>
+        <option value="🗡" data-suffix="🗡">🗡</option>
+
+        <option value="✰" data-suffix="✰">✰</option>
+        <option value="✯" data-suffix="✯">✯</option>
+        <option value="✵" data-suffix="✵">✵</option>
+        <option value="✶" data-suffix="✶">✶</option>
+
+        <option value="⎝" data-suffix="⎠">⎝</option>
+        <option value="⎛" data-suffix="⎞">⎛</option>
+        <option value="⎡" data-suffix="⎤">⎡</option>
+        <option value="⌈" data-suffix="⌉">⌈</option>
+
+        <option value="☾" data-suffix="☽">☾</option>
+        <option value="🌙" data-suffix="🌙">🌙</option>
+        <option value="⭐" data-suffix="⭐">⭐</option>
+        <option value="🌟" data-suffix="🌟">🌟</option>
+
+        <option value="꧂★" data-suffix="★꧁">꧂★</option>
+        <option value="༒" data-suffix="༒">༒</option>
+        <option value="☯" data-suffix="☯">☯</option>
+        <option value="☮" data-suffix="☮">☮</option>
+
+        <option value="⚜" data-suffix="⚜">⚜</option>
+        <option value="♛" data-suffix="♛">♛</option>
+        <option value="♚" data-suffix="♚">♚</option>
+
+        <option value="⫷" data-suffix="⫸">⫷</option>
+        <option value="⟬" data-suffix="⟭">⟬</option>
+        <option value="⧼" data-suffix="⧽">⧼</option>
+
+        <option value="✞" data-suffix="✞">✞</option>
+        <option value="✠" data-suffix="✠">✠</option>
+        <option value="✟" data-suffix="✟">✟</option>
+
+        <option value="🖤" data-suffix="🖤">🖤</option>
+        <option value="💜" data-suffix="💜">💜</option>
+        <option value="💙" data-suffix="💙">💙</option>
+        <option value="💚" data-suffix="💚">💚</option>
+        <option value="꧁༒" data-suffix="༒꧂">꧁༒</option>
+        <option value="꧁༺" data-suffix="༻꧂">꧁༺</option>
+        <option value="꧁✧" data-suffix="✧꧂">꧁✧</option>
+        <option value="꧁★" data-suffix="★꧂">꧁★</option>
+        <option value="꧁✦" data-suffix="✦꧂">꧁✦</option>
+
+        <option value="꧁𓆩" data-suffix="𓆪꧂">꧁𓆩</option>
+        <option value="꧁👑" data-suffix="👑꧂">꧁👑</option>
+        <option value="꧁⚔" data-suffix="⚔꧂">꧁⚔</option>
+        <option value="꧁🔥" data-suffix="🔥꧂">꧁🔥</option>
+        <option value="꧁💀" data-suffix="💀꧂">꧁💀</option>
+
+        <option value="꧁☠" data-suffix="☠꧂">꧁☠</option>
+        <option value="꧁⚡" data-suffix="⚡꧂">꧁⚡</option>
+        <option value="꧁💎" data-suffix="💎꧂">꧁💎</option>
+        <option value="꧁🖤" data-suffix="🖤꧂">꧁🖤</option>
+        <option value="꧁😈" data-suffix="😈꧂">꧁😈</option>
+
+        <option value="꧁✿" data-suffix="✿꧂">꧁✿</option>
+        <option value="꧁❀" data-suffix="❀꧂">꧁❀</option>
+        <option value="꧁♡" data-suffix="♡꧂">꧁♡</option>
+        <option value="꧁❤" data-suffix="❤꧂">꧁❤</option>
+        <option value="꧁❥" data-suffix="❥꧂">꧁❥</option>
+
+        <option value="꧁⭐" data-suffix="⭐꧂">꧁⭐</option>
+        <option value="꧁🌟" data-suffix="🌟꧂">꧁🌟</option>
+        <option value="꧁✨" data-suffix="✨꧂">꧁✨</option>
+        <option value="꧁🌙" data-suffix="🌙꧂">꧁🌙</option>
+        <option value="꧁☾" data-suffix="☽꧂">꧁☾</option>
+
+        <option value="꧁♛" data-suffix="♛꧂">꧁♛</option>
+        <option value="꧁♚" data-suffix="♚꧂">꧁♚</option>
+        <option value="꧁⚜" data-suffix="⚜꧂">꧁⚜</option>
+        <option value="꧁༒★" data-suffix="★༒꧂">꧁༒★</option>
+        <option value="꧁༒✦" data-suffix="✦༒꧂">꧁༒✦</option>
+
+      </select>
+      <button class="btn outline" id="randomPrefixBtn"> 🎲 Random Design</button>
+
+      <select id="suffixSelect" style="display:none">
+        <option value="">Auto</option>
+      </select>
+
+ 
+    </div>
+
+
+    <!-- CATEGORIES -->
+    <div class="controls" id="categories">
+      <button class="btn outline active" onclick="setCategory('all',this)">🔠 All Fonts</button>
+      <button class="btn outline" onclick="setCategory('stylish',this)">✨ Stylish</button>
+      <button class="btn outline" onclick="setCategory('premium',this)">💎 Premium</button>
+      <button class="btn outline" onclick="setCategory('handwriting',this)">🖊️ Handwriting </button>
+      <button class="btn outline" onclick="setCategory('glitch',this)">⚡Glitch </button>
+      <button class="btn outline" onclick="setCategory('bold',this)">🅱️ Bold</button>
+      <button class="btn outline" onclick="setCategory('cute',this)">🧸 Cute</button>
+      <button class="btn outline" onclick="setCategory('cool',this)">❄️ Cool</button>
+      <button class="btn outline" onclick="setCategory('vip',this)">👑 VIP</button>
+      <button class="btn outline" onclick="setCategory('cursive',this)">✍️ Cursive </button>
+      <button class="btn outline" onclick="setCategory('italic',this)">📐 Italic </button>
+      <button class="btn outline" onclick="setCategory('instagram',this)">📸 instagram</button>
+      <button class="btn outline" onclick="setCategory('facebook',this)">📘 Facebook</button>
+      <button class="btn outline" onclick="setCategory('text-art',this)">🧩 Text art</button>
+      <button class="btn outline" onclick="setCategory('ugly',this)">😵 Ugly</button>
+      <button class="btn outline" onclick="setCategory('squiggle',this)">🌀 squiggle</button>
+      <button class="btn outline" onclick="setCategory('weird',this)">👽 Weird</button>
+      <button class="btn outline" onclick="setCategory('joiner',this)">🔗 Joiner</button>
+      <button class="btn outline" onclick="setCategory('boxed',this)">📦 Boxed</button>
+      <button class="btn outline" onclick="setCategory('emojis',this)">😍 Emojis Fonts</button>
+      <button class="btn outline" onclick="setCategory('cyber-hacker',this)">💀 Cyber Hacher </button>
+      <button class="btn outline" onclick="setCategory('decorative',this)">🎀 Decorative </button>
+      <button class="btn outline" onclick="setCategory('pro-gamer',this)">🎮 Pro Gamer </button>
+      <button class="btn outline" onclick="setCategory('esports-logo',this)">🏆 Esports logo</button>
+    </div>
+
+    <!-- SIZE + COLOR -->
+    <div class="controls">
+      <label>Size <input type="range" id="size" min="16" max="52" value="26"></label>
+      <label>Color <input type="color" id="color" value="#111827"></label>
+    </div>
+    <div class="output-title">✨ Generated Styles</div>
+    <div id="fonts"></div>
+
+    <button class="btn outline" onclick="loadMore()"><b>Load More Fonts</b></button>
+
+
+
+    <div class="section">
+      <h2>People use these fonts for</h2>
+
+      <!-- Horizontal Buttons -->
+      <div class="btn-row">
+        <button class="tab-btn active" onclick="openTab(this,'social')">🌐 Social Media Font </button>
+        <button class="tab-btn" onclick="openTab(this,'games')">🎮 Game Fonts</button>
+        <button class="tab-btn" onclick="openTab(this,'art')">🎨 Art Font</button>
+        <button class="tab-btn" onclick="openTab(this,'instagram')">📸 Instagram Font</button>
+        <button class="tab-btn" onclick="openTab(this,'facebook')">📘 Facebook Font</button>
+        <button class="tab-btn" onclick="openTab(this,'youtube')">▶️ YouTube Font</button>
+      </div>
+
+      <!-- Descriptions -->
+      <div id="social" class="desc-box show">
+        Stylish fonts are widely used across social media platforms.
+        People use fancy fonts for
+        <a href="/instagram-font-generator">Instagram bios</a>,
+        <a href="/facebook-fonts">Facebook posts</a>,
+        WhatsApp status and profile descriptions.
+      </div>
+
+      <div id="games" class="desc-box">
+        Gamers use stylish fonts for
+        <a href="/gaming-name-generator">in-game usernames</a>,
+        clan tags, esports logos and Discord servers.
+      </div>
+
+      <div id="art" class="desc-box">
+        Creative fonts are used in
+        <a href="/logo-fonts">logo design</a>,
+        posters, digital art and thumbnails to enhance visual appeal.
+      </div>
+
+      <div id="instagram" class="desc-box">
+        Instagram fonts are popular for
+        <a href="/instagram-bio-fonts">bios</a>,
+        reels captions, highlights and profile names.
+      </div>
+
+      <div id="facebook" class="desc-box">
+        Facebook users apply fancy fonts to
+        <a href="/facebook-post-fonts">status updates</a>,
+        comments and page promotions.
+      </div>
+
+      <div id="youtube" class="desc-box">
+        YouTubers use stylish fonts for
+        <a href="/youtube-thumbnail-fonts">thumbnails</a>,
+        video titles and channel branding.
+      </div>
+    </div>
+    <!-- ===== HOW FONTIXA WORKS (ADVANCED) ===== -->
+    <div class="Work">
+      <section class="howx">
+        <div class="howx-header">
+          <h2>How Fontixa Works</h2>
+          <p>
+            Fontixa helps you generate stylish text using fancy Unicode fonts.
+            Follow these simple steps to create Instagram fonts, gaming names
+            and stylish text in seconds.
+          </p>
+        </div>
+
+        <div class="howx-steps">
+          <!-- STEP 1 -->
+          <div class="howx-card">
+            <div class="howx-num">01</div>
+            <div class="howx-icon">⌨️</div>
+            <h3>Type Your Text</h3>
+            <p>
+              Enter your name, Instagram bio text, caption or any word
+              in the Fontixa input box. You can type anything you want.
+            </p>
+            <div class="howx-shot">
+              <span>Text Input Preview</span>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="howx-card">
+            <div class="howx-num">02</div>
+            <div class="howx-icon">✨</div>
+            <h3>Choose Font Style</h3>
+            <p>
+              Instantly see your text converted into stylish fonts.
+              Choose from cool, cute, bold, premium, VIP and fancy styles.
+            </p>
+            <div class="howx-shot">
+              <span>Font Styles Preview</span>
+            </div>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="howx-card">
+            <div class="howx-num">03</div>
+            <div class="howx-icon">📋</div>
+            <h3>Copy & Paste Anywhere</h3>
+            <p>
+              Click the copy button and paste your stylish font on Instagram,
+              WhatsApp, Facebook, games or anywhere you like.
+            </p>
+            <div class="howx-shot">
+              <span>Copy & Paste Action</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== TRUST SIGNALS ===== -->
+    <DIV class="trust"></DIV>
+    <section class="trustx">
+      <div class="trustx-header">
+        <h2>Why Trust Fontixa?</h2>
+        <p>
+          Fontixa is a free and secure fancy font generator trusted by creators,
+          gamers and social media users for stylish text.
+        </p>
+      </div>
+
+      <div class="trustx-grid">
+        <div class="trustx-card">
+          <span class="trustx-icon">🆓</span>
+          <strong>100% Free Tool</strong>
+          <p>No hidden charges. Generate unlimited stylish fonts for free.</p>
+        </div>
+
+        <div class="trustx-card">
+          <span class="trustx-icon">🔓</span>
+          <strong>No Login Required</strong>
+          <p>Use Fontixa instantly without sign-up or personal details.</p>
+        </div>
+
+        <div class="trustx-card">
+          <span class="trustx-icon">💧</span>
+          <strong>No Watermark</strong>
+          <p>Copy and paste clean stylish text without any watermark.</p>
+        </div>
+
+        <div class="trustx-card">
+          <span class="trustx-icon">📱</span>
+          <strong>Mobile Friendly</strong>
+          <p>Works smoothly on mobile, tablet and desktop devices.</p>
+        </div>
+
+        <div class="trustx-card">
+          <span class="trustx-icon">🔒</span>
+          <strong>Safe & Secure</strong>
+          <p>No data storage. Your text stays in your browser.</p>
+        </div>
+
+        <div class="trustx-card">
+          <span class="trustx-icon">⚡</span>
+          <strong>Fast & Lightweight</strong>
+          <p>Instant font generation with zero loading delay.</p>
+        </div>
+      </div>
+    </section>
+  </DIV>
+
+  <!-- ===== TRENDING FONTS ===== -->
+  <div class="trending">
+    <section class="trendx">
+      <div class="trendx-header">
+        <h2>Trending Fonts</h2>
+        <p>
+          Discover the most popular and trending fancy fonts.
+          Live preview updates automatically – just copy and use.
+        </p>
+      </div>
+
+      <div class="trendx-grid">
+        <div class="trendx-card">
+          <span class="trendx-label">🔥 Trending</span>
+          <div class="trendx-preview" data-font="𝓕𝓸𝓷𝓽𝓲𝔁𝓪">𝓕𝓸𝓷𝓽𝓲𝔁𝓪</div>
+          <button class="trendx-copy">📋 Copy</button>
+        </div>
+
+        <div class="trendx-card">
+          <span class="trendx-label">🔥 Trending</span>
+          <div class="trendx-preview" data-font="𝐅𝐨𝐧𝐭𝐢𝐱𝐚">𝐅𝐨𝐧𝐭𝐢𝐱𝐚</div>
+          <button class="trendx-copy">📋 Copy</button>
+        </div>
+
+        <div class="trendx-card">
+          <span class="trendx-label">🔥 Trending</span>
+          <div class="trendx-preview" data-font="𝔉𝔬𝔫𝔱𝔦𝔵𝔞">𝔉𝔬𝔫𝔱𝔦𝔵𝔞</div>
+          <button class="trendx-copy">📋 Copy</button>
+        </div>
+
+        <div class="trendx-card">
+          <span class="trendx-label">🔥 Trending</span>
+          <div class="trendx-preview" data-font="𝕱𝖔𝖓𝖙𝖎𝖝𝖆">𝕱𝖔𝖓𝖙𝖎𝖝𝖆</div>
+          <button class="trendx-copy">📋 Copy</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FAQ SECTION -->
+  <div class="faq">
+    <section class="faq-section">
+      <h2>❓ Fontixa – FAQs</h2>
+
+      <div class="faq">
+        <div class="faq-question">
+          What is Fontixa?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <a href="fontixa.com">Fontixa</a> Fontixa is a free online font style generator that allows users to create
+          stylish, fancy, bold, cute and Unicode text for social media platforms like Instagram, WhatsApp and
+          Facebook..
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">
+          Are Fontixa fonts free to use?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes, all Fontixa fonts are completely free to use for personal and social media purposes. No signup or
+          payment
+          is required.
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">
+          Can I use Fontixa fonts on Instagram & WhatsApp?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          You can use Fontixa fonts on Instagram bios, captions, WhatsApp chats, Facebook posts, YouTube titles,
+          gaming
+          usernames and text-based logos.
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">
+          Are Fontixa fonts copyright free?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes. Fontixa generates Unicode-based text styles, not downloadable font files. These text styles do not have
+          copyright restrictions.
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">
+          Does Fontixa work on mobile?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Fontixa fonts work on Android, iPhone, Windows, macOS and all modern browsers. Because they are Unicode
+          characters, compatibility is very high.
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">
+          Can I use Fontixa fonts for logos or branding?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Fontixa fonts can be used for text-based logos and designs. However, since they are Unicode text and not
+          font
+          files, they are best suited for digital use.
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">
+          Fontixa add new fonts regularly?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes. New stylish, premium and trending font styles are added regularly to improve user experience.
+        </div>
+      </div>
+
+    </section>
+  </div>
+  <!-- ===== SEO CONTENT BLOCK ===== -->
+  <div class="seo">
+    <section class="seo-content">
+      <h2>Fontixa – Free Fancy Font Generator for Stylish Text</h2>
+
+      <p>
+        Fontixa is a free fancy font generator designed to help users create stylish text
+        for social media platforms like Instagram, WhatsApp, Facebook and gaming profiles.
+        With Fontixa, you can instantly convert normal text into stylish, bold, cute,
+        premium and VIP font styles using Unicode characters. No sign-up, no download and
+        no technical skills are required. Simply type your text, choose a font style and
+        copy it for use anywhere.
+      </p>
+
+      <p>
+        Stylish fonts have become extremely popular on social media. Whether you want an
+        attractive Instagram bio, a unique WhatsApp status, a cool gaming username or a
+        creative YouTube channel name, Fontixa provides everything in one place. Our fancy
+        font generator works directly in your browser and supports all modern devices,
+        including mobile phones, tablets and desktops.
+      </p>
+
+      <h3>What Is a Fancy Font Generator?</h3>
+
+      <p>
+        A fancy font generator is an online tool that converts standard text into decorative
+        and stylish text styles using Unicode symbols. These fonts are not traditional font
+        files. Instead, they are special characters that work across different platforms.
+        Fontixa uses Unicode-based font styles, which means the generated text can be copied
+        and pasted anywhere without losing its style.
+      </p>
+
+      <p>
+        Unlike regular fonts that require installation, Fontixa fonts work instantly.
+        This makes Fontixa perfect for social media users, gamers and creators who want
+        quick and stylish text without any setup. From bold fonts to aesthetic and cute
+        styles, Fontixa offers a wide variety of options.
+      </p>
+
+      <h3>Why Use Fontixa for Stylish Fonts?</h3>
+
+      <p>
+        Fontixa stands out because it is fast, simple and completely free. Many font tools
+        require login, subscriptions or show watermarks. Fontixa does not. You can generate
+        unlimited stylish fonts without restrictions. The interface is clean and easy to
+        use, making it suitable for beginners as well as advanced users.
+      </p>
+
+      <p>
+        Our tool is especially popular for Instagram font generation. Users can create
+        stylish Instagram bio fonts, captions and usernames that look unique and eye-catching.
+        Fontixa fonts also work perfectly for WhatsApp text, Facebook posts, gaming names,
+        clan tags and logo text ideas.
+      </p>
+
+      <h3>How Fontixa Fonts Work on Social Media</h3>
+
+      <p>
+        Fontixa fonts are based on Unicode characters, which are supported by most modern
+        platforms. This means you can copy a stylish font from Fontixa and paste it directly
+        into Instagram, WhatsApp, Facebook, Twitter, YouTube and many games. The text keeps
+        its style without breaking or converting back to normal.
+      </p>
+
+      <p>
+        Many users use Fontixa to create VIP-style names, bold usernames and fancy symbols
+        for gaming profiles. Since the fonts are Unicode-based, they are safe to use and
+        do not require any special permissions or installations.
+      </p>
+
+      <h3>Popular Uses of Fontixa Fancy Fonts</h3>
+
+      <p>
+        Fontixa fonts can be used in many creative ways. Instagram users often use stylish
+        fonts for bios and highlights. WhatsApp users use fancy text for status updates.
+        Gamers use bold and cool fonts for usernames and clan names. Content creators use
+        Fontixa fonts for YouTube channel names, thumbnails and branding ideas.
+      </p>
+
+      <p>
+        Designers and marketers also use Fontixa to test logo text ideas and creative text
+        styles before finalizing designs. The wide range of font categories, including cute,
+        stylish, bold, premium and VIP fonts, makes Fontixa suitable for all types of users.
+      </p>
+
+      <h3>Is Fontixa Free and Safe to Use?</h3>
+
+      <p>
+        Yes, Fontixa is 100% free to use. There are no hidden charges, no login requirements
+        and no watermarks. Your text is processed directly in your browser, and Fontixa does
+        not store any user data. This makes Fontixa a safe and secure fancy font generator
+        for everyone.
+      </p>
+
+      <p>
+        Fontixa is optimized for speed and performance. The tool loads quickly and generates
+        fonts instantly, even on low-end devices. This ensures a smooth experience for all
+        users, regardless of their device or internet speed.
+      </p>
+
+      <h3>Why Fontixa Is the Best Fancy Font Generator</h3>
+
+      <p>
+        Fontixa combines simplicity, variety and performance into one powerful tool.
+        With hundreds of stylish font styles, easy copy-paste functionality and full
+        compatibility with social media platforms, Fontixa is the ideal choice for anyone
+        looking to create stylish text online.
+      </p>
+
+      <p>
+        Whether you want Instagram fonts, WhatsApp stylish text, gaming name fonts or fancy
+        Unicode text, Fontixa gives you everything you need in one place. Start using
+        Fontixa today and transform your simple text into eye-catching stylish fonts
+        instantly.
+      </p>
+    </section>
+  </div>
+  <script>
+    const faqs = document.querySelectorAll(".faq");
+
+    faqs.forEach(faq => {
+      faq.querySelector(".faq-question").addEventListener("click", () => {
+        faqs.forEach(item => {
+          if (item !== faq) item.classList.remove("active");
+        });
+        faq.classList.toggle("active");
+      });
+    });
+  </script>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="fontixa-footer light">
+
+      <!-- BRAND + ABOUT -->
+      <div class="footer-about">
+        <h3>Fontixa</h3>
+
+        <p class="footer-seo">
+          Fontixa is a free fancy font generator that helps users create stylish text,
+          fancy fonts and Unicode symbols for Instagram, WhatsApp, Facebook, YouTube
+          and gaming usernames. You can generate cool fonts, stylish names and text art
+          instantly and copy-paste them anywhere without installing any app.
+        </p>
+
+        <p class="footer-seo">
+          Our stylish font generator works online on all modern devices and browsers,
+          making it easy to design unique Instagram bios, captions, profile names,
+          WhatsApp status text and creative social media content.
+        </p>
+
+        <p class="footer-trust">
+          All fonts on Fontixa are generated using standard Unicode characters and are
+          provided for styling and personal use only.
+        </p>
+
+        <!-- SOCIAL ICONS -->
+        <div class="footer-social">
+          <a href="https://www.instagram.com/earntrim_official?igsh=MW5sMXkyNGNqc3JmdA==" aria-label="Instagram"
+            title="Instagram">📸</a>
+          <a href="https://www.facebook.com/1nehakhan1" aria-label="Facebook" title="Facebook">📘</a>
+          <a href="https://youtube.com/@earntirm?si=HAmVABwZoij64qtm" aria-label="YouTube" title="YouTube">▶️</a>
+          <a href="Hey, I'm using Telegram to chat. Join me! Download it here: https://telegram.org/dl"
+            aria-label="Telegram" title="Telegram">✈️</a>
+        </div>
+      </div>
+
+      <!-- LEGAL LINKS -->
+      <div class="footer-legal">
+        <h4>Legal</h4>
+        <a href="privacypolicy.html">Privacy Policy</a>
+        <a href="tirmandcondition.html">Terms & Conditions</a>
+        <a href="Disclaimer.html">Disclaimer</a>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer-copy">
+        © <span id="fx-year"></span> <strong>Fontixa</strong>. All rights reserved.
+        Use of this website indicates acceptance of our Terms, Privacy Policy and Disclaimer.
+      </div>
+
+    </div>
+    <script>
+      document.getElementById("fx-year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+
+
+
+</body>
+
+</html>

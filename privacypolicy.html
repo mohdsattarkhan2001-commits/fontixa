@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- ========= GOOGLE SIDE SEO ========= -->
+<title>Privacy Policy – YourSite | User Data & Privacy</title>
+<meta name="description" content="Read the Privacy Policy of YourSite to understand how we collect, use and protect user information while providing our online tools and services.">
+<meta name="keywords" content="privacy policy yoursite, user privacy, data protection policy">
+<meta name="author" content="YourSite">
+<meta name="publisher" content="YourSite">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yourdomain.com/privacy-policy.html">
+
+<!-- Social Preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Privacy Policy – YourSite">
+<meta property="og:description" content="Learn how YourSite protects user privacy and data.">
+<meta property="og:url" content="https://yourdomain.com/privacy-policy.html">
+<meta property="og:site_name" content="YourSite">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Privacy Policy – YourSite">
+<meta name="twitter:description" content="Official privacy policy of YourSite.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Do you collect personal information?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. We do not collect personal information such as names, phone numbers, passwords, or payment details."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is the data entered in tools stored?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. All text entered into our tools is processed locally in the browser and is not saved on our servers."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do you use cookies?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes, cookies may be used to improve user experience and analyze website performance."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do you share user data with third parties?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No personal data is sold or shared. Third-party services may collect anonymous usage data only."
+   }
+  }
+ ]
+}
+</script>
+ 
+<style>
+:root{
+ /* ===== LIGHT BASE COLORS ===== */
+ --bg:#f5f7fb;
+ --card:#ffffff;
+ --text:#0f172a;
+ --muted:#6b7280;
+ --border:#e5e7eb;
+
+ /* ===== BRAND COLORS ===== */
+ --primary:#2563eb;
+ --primary-dark:#4338ca;
+
+ /* ===== UI ===== */
+ --radius:18px;
+ --shadow-soft:0 8px 24px rgba(15,23,42,.06);
+ --shadow-btn:0 6px 18px rgba(79,70,229,.35);
+}
+
+*{
+ box-sizing:border-box;
+ margin:0;
+ padding:0;
+}
+
+body{
+ font-family:system-ui, Arial, sans-serif;
+ background:var(--bg);
+ color:var(--text);
+ line-height:1.7;
+}
+
+/* ===== HEADER ===== */
+header{
+  width:100%;
+  background:var(--card);
+
+  
+  border-bottom:1px solid var(--border);
+    position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+/* ===== NAVBAR ===== */
+.nav{
+  max-width:1200px;
+  margin:0 auto;
+  height:64px;              /* 🔥 FIXED NAV HEIGHT */
+  padding:0 16px;           /* vertical padding hata di */
+  display:flex;
+  align-items:center;       /* logo center me rahe */
+  justify-content:space-between;
+}
+
+/* ===== LOGO ===== */
+.logo{
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+}
+
+.logo img{
+  height:100px;
+  transition:transform .3s ease, filter .3s ease;
+}
+
+.logo:hover img{
+  transform:scale(1.06);
+  filter:drop-shadow(0 0 8px rgba(37,99,235,.5));
+}
+
+
+/* ===== MENU ===== */
+.menu{
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+
+.menu a{
+  text-decoration:none;
+  font-size:14.5px;
+  font-weight:500;
+  color:var(--text);
+  position:relative;
+  padding:6px 0;
+}
+
+/* hover underline */
+.menu a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:0%;
+  height:2px;
+  background:var(--primary);
+  transition:.25s ease;
+}
+
+.menu a:hover::after{
+  width:100%;
+}
+
+.menu a:hover{
+  color:var(--primary);
+}
+
+/* ===== ACTIVE LINK (OPTIONAL) ===== */
+.menu a.active{
+  color:var(--primary);
+  font-weight:600;
+}
+
+.menu a.active::after{
+  width:100%;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+  .logo img{
+    height:32px;
+  }
+
+  .menu{
+    gap:16px;
+  }
+
+  .menu a{
+    font-size:13.5px;
+  }
+}
+
+/* ===== SMALL MOBILE ===== */
+@media(max-width:480px){
+  .nav{
+    padding:8px 12px;
+  }
+
+  .menu{
+    gap:12px;
+  }
+}
+
+/* ===== HERO ===== */
+.hero{
+ padding:4px 16px;
+ display:flex;
+ justify-content:center;
+}
+
+.hero-box{
+ max-width:1250px;
+ width:100%;
+ background:var(--card);
+ border:1px solid var(--border);
+ border-radius:var(--radius);
+ padding:48px 36px;
+ text-align:center;
+ box-shadow:var(--shadow-soft);
+}
+
+.hero-box h1{
+ font-size:clamp(28px,4vw,44px);
+ font-weight:800;
+ color:var(--primary);
+ margin-bottom:12px;
+}
+
+.hero-box p{
+ font-size:16px;
+ color:var(--muted);
+ max-width:700px;
+ margin:auto;
+}
+
+@media(max-width:600px){
+ .hero-box{padding:36px 22px}
+}
+/* ===== PAGE ===== */
+.container{
+ max-width:1250px;
+ margin:24px auto;
+ padding:0 16px;
+}
+
+
+
+
+
+/* ===== CARD ===== */
+.card{
+ background:var(--card);
+ border:1px solid var(--border);
+ border-radius:var(--radius);
+ padding:22px;
+ box-shadow:var(--shadow-soft);
+}
+
+h2{
+ font-size:20px;
+ color:var(--primary-dark);
+ margin:20px 0 10px;
+}
+
+p,li{
+ font-size:15px;
+ margin-bottom:10px;
+}
+
+ul{padding-left:20px}
+
+/* ===== FOOTER ===== */
+.site-footer{
+ margin-top:40px;
+ border-top:1px solid var(--border);
+ background:#ffffff;
+}
+
+.footer-wrap{
+ max-width:1100px;
+ margin:auto;
+ padding:18px 16px;
+ text-align:center;
+ font-size:13px;
+ color:var(--muted);
+}
+
+.site-footer a{
+ color:var(--primary);
+ margin:0 6px;
+ text-decoration:none;
+ font-weight:500;
+}
+
+/* ===== FAQ ACCORDION ===== */
+.faq{
+ margin-top:40px;
+}
+
+.faq h2{
+ color:var(--primary);
+ margin-bottom:16px;
+}
+
+.faq-item{
+ border:1px solid var(--border);
+ border-radius:14px;
+ margin-bottom:12px;
+ background:var(--card);
+ box-shadow:var(--shadow-soft);
+ overflow:hidden;
+}
+
+.faq-question{
+ width:100%;
+ background:none;
+ border:none;
+ padding:16px;
+ text-align:left;
+ font-size:15px;
+ font-weight:600;
+ color:var(--text);
+ cursor:pointer;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.faq-question span{
+ font-size:18px;
+ color:var(--primary);
+ transition:transform .3s;
+}
+
+.faq-item.active .faq-question span{
+ transform:rotate(45deg);
+}
+
+.faq-answer{
+ max-height:0;
+ overflow:hidden;
+ transition:max-height .35s ease;
+ background:#f9fafb;
+}
+
+.faq-answer p{
+ padding:0 16px 16px;
+ color:var(--muted);
+ font-size:14px;
+}
+
+ 
+/* footer */
+.fontixa-footer.light{
+  margin-top:10px;
+  padding:4px 20px 20px;
+  background:#f8fafc;
+  color:#020617;
+
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:36px;
+
+  border-top:1px solid #e5e7eb;
+}
+
+/* ABOUT + SEO TEXT */
+.footer-about h3{
+  font-size:26px;
+  color:#2563eb;
+  margin-bottom:10px;
+}
+.footer-seo{
+  font-size:14px;
+  line-height:1.7;
+  color:#475569;
+  margin-bottom:10px;
+  max-width:560px;
+}
+.footer-trust{
+  font-size:13px;
+  color:#64748b;
+  margin-top:6px;
+}
+
+/* SOCIAL ICONS */
+.footer-social{
+  display:flex;
+  gap:12px;
+  margin-top:16px;
+}
+.footer-social a{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:18px;
+  text-decoration:none;
+  background:#e0e7ff;
+  color:#2563eb;
+
+  transition:.25s ease;
+}
+.footer-social a:hover{
+  background:#2563eb;
+  color:#ffffff;
+  transform:translateY(-2px);
+}
+
+/* LEGAL */
+.footer-legal h4{
+  font-size:16px;
+  margin-bottom:12px;
+  color:#020617;
+}
+.footer-legal a{
+  display:block;
+  font-size:14px;
+  color:#475569;
+  text-decoration:none;
+  margin-bottom:8px;
+  transition:.25s;
+}
+.footer-legal a:hover{
+  color:#2563eb;
+  transform:translateX(3px);
+}
+
+/* COPYRIGHT */
+.footer-copy{
+  grid-column:1 / -1;
+  margin-top:14px;
+  padding-top:14px;
+  border-top:1px solid #e5e7eb;
+  text-align:center;
+  font-size:13px;
+  color:#64748b;
+}
+
+/* MOBILE */
+@media(max-width:700px){
+  .fontixa-footer.light{
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+  .footer-copy{
+    text-align:left;
+  }
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+
+  <header>
+    <div class="nav">
+      <a class="logo" href="index.html"><img src="fontixa-logo.png"  alt="Fontixa logo">
+      </a>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="Contactus.html">Contect</a>
+        <a href="Blog.html">Blog</a>
+      </div>
+    </div>
+  </header>
+
+<section class="hero">
+  <div class="hero-box">
+    <h1>Privacy Policy – How Fontixa Protects Your Data</h1>
+    <p>
+      Learn how Fontixa collects, uses, and safeguards your personal information
+      while you use our free font generator tools.
+    </p>
+  </div>
+</section>
+
+<!-- ===== CONTENT ===== -->
+<div class="container">
+
+
+<div class="card">
+
+<p>
+This Privacy Policy explains how YourSite collects, uses, and protects information when users access our website and online tools.
+</p>
+
+<h2>1. Information We Collect</h2>
+<p>
+We do not collect personal information such as names, phone numbers, passwords, or payment details.
+</p>
+<p>
+Any text entered into our tools is processed locally in your browser and is not stored on our servers.
+</p>
+
+<h2>2. Automatically Collected Information</h2>
+<ul>
+ <li>IP address</li>
+ <li>Browser type</li>
+ <li>Device information</li>
+ <li>Visited pages</li>
+ <li>Referring URLs</li>
+</ul>
+<p>
+This data is used only for analytics, security, and improving website performance.
+</p>
+
+<h2>3. Cookies</h2>
+<p>
+Cookies may be used to store user preferences and improve browsing experience. You can disable cookies in your browser settings.
+</p>
+
+<h2>4. Google AdSense & Advertising</h2>
+<p>
+YourSite may display advertisements provided by Google AdSense or other third-party networks.
+</p>
+<p>
+Google may use cookies (including the DART cookie) to serve ads based on user visits to this and other websites.
+</p>
+
+<h2>5. Third-Party Privacy Policies</h2>
+<p>
+Our Privacy Policy does not apply to external websites. We recommend reviewing the privacy policies of third-party services.
+</p>
+
+<h2>6. GDPR & CCPA Rights</h2>
+<p>
+Users from the EU and California may have privacy rights under GDPR and CCPA regulations.
+</p>
+<p>
+Since we do not store personal data, these rights are inherently respected.
+</p>
+
+<h2>7. Children’s Information</h2>
+<p>
+YourSite does not knowingly collect personal data from children under 13 years of age.
+</p>
+
+<h2>8. Consent</h2>
+<p>
+By using our website, you consent to this Privacy Policy.
+</p>
+
+<h2>9. Updates</h2>
+<p>
+This Privacy Policy may be updated from time to time. Any changes will be posted on this page.
+</p>
+
+</div>
+</div>
+ <!-- ===== Privacy aand Policy FAQ ===== -->
+ <section class="faq">
+  <h2>Privacy Policy – Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Do you collect personal information?
+      <span>+</span>
+    </button>
+    <div class="faq-answer">
+      <p>
+        No. We do not collect personal information such as names, phone numbers, passwords, or payment details.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Is the data entered in tools stored?
+      <span>+</span>
+    </button>
+    <div class="faq-answer">
+      <p>
+        No. All text entered into our tools is processed locally in your browser and is not saved on our servers.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Do you use cookies?
+      <span>+</span>
+    </button>
+    <div class="faq-answer">
+      <p>
+        Yes, cookies may be used to improve user experience and analyze website performance. You can disable cookies in your browser settings.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Do you share user data with third parties?
+      <span>+</span>
+    </button>
+    <div class="faq-answer">
+      <p>
+        No personal data is sold or shared. Third-party services may collect anonymous usage data only for analytics or advertising purposes.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+ <footer>
+    <div class="fontixa-footer light">
+
+      <!-- BRAND + ABOUT -->
+      <div class="footer-about">
+        <h3>Fontixa</h3>
+
+        <p class="footer-seo">
+          Fontixa is a free fancy font generator that helps users create stylish text,
+          fancy fonts and Unicode symbols for Instagram, WhatsApp, Facebook, YouTube
+          and gaming usernames. You can generate cool fonts, stylish names and text art
+          instantly and copy-paste them anywhere without installing any app.
+        </p>
+
+        <p class="footer-seo">
+          Our stylish font generator works online on all modern devices and browsers,
+          making it easy to design unique Instagram bios, captions, profile names,
+          WhatsApp status text and creative social media content.
+        </p>
+
+        <p class="footer-trust">
+          All fonts on Fontixa are generated using standard Unicode characters and are
+          provided for styling and personal use only.
+        </p>
+
+        <!-- SOCIAL ICONS -->
+        <div class="footer-social">
+          <a href="https://www.instagram.com/earntrim_official?igsh=MW5sMXkyNGNqc3JmdA==" aria-label="Instagram"
+            title="Instagram">📸</a>
+          <a href="https://www.facebook.com/1nehakhan1" aria-label="Facebook" title="Facebook">📘</a>
+          <a href="https://youtube.com/@earntirm?si=HAmVABwZoij64qtm" aria-label="YouTube" title="YouTube">▶️</a>
+          <a href="Hey, I'm using Telegram to chat. Join me! Download it here: https://telegram.org/dl"
+            aria-label="Telegram" title="Telegram">✈️</a>
+        </div>
+      </div>
+
+      <!-- LEGAL LINKS -->
+      <div class="footer-legal">
+        <h4>Legal</h4>
+        <a href="privacypolicy.html">Privacy Policy</a>
+        <a href="tirmandcondition.html">Terms & Conditions</a>
+        <a href="Disclaimer.html">Disclaimer</a>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer-copy">
+        © <span id="fx-year"></span> <strong>Fontixa</strong>. All rights reserved.
+        Use of this website indicates acceptance of our Terms, Privacy Policy and Disclaimer.
+      </div>
+
+    </div>
+    <script>
+      document.getElementById("fx-year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+<!-- ===== PRIVACY POLICY SCHEMA ===== -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "name": "Privacy Policy – YourSite",
+ "url": "https://yourdomain.com/privacy-policy.html",
+ "description": "Privacy policy explaining how YourSite protects user data and privacy.",
+ "publisher": {
+   "@type": "Organization",
+   "name": "YourSite",
+   "url": "https://yourdomain.com"
+ }
+}
+</script>
+
+<!-- ===== JS ===== -->
+<script>
+function toggleMenu(){
+ document.getElementById("navMenu").classList.toggle("show");
+}
+document.querySelectorAll(".nav a").forEach(link=>{
+ link.addEventListener("click",()=>{
+  document.getElementById("navMenu").classList.remove("show");
+ });
+});
+</script>
+<script>
+document.querySelectorAll(".faq-question").forEach(btn=>{
+ btn.addEventListener("click",()=>{
+  const item = btn.parentElement;
+  const open = document.querySelector(".faq-item.active");
+
+  if(open && open !== item){
+   open.classList.remove("active");
+   open.querySelector(".faq-answer").style.maxHeight = null;
+  }
+
+  item.classList.toggle("active");
+  const answer = item.querySelector(".faq-answer");
+
+  if(item.classList.contains("active")){
+   answer.style.maxHeight = answer.scrollHeight + "px";
+  }else{
+   answer.style.maxHeight = null;
+  }
+ });
+});
+</script>
+</body>
+</html>

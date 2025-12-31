@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- ========= GOOGLE SIDE SEO ========= -->
+<title>Contact Us – Fontixa | Support & Help</title>
+<meta name="description" content="Contact Fontixa for support, feedback, copyright issues or questions related to our font tools and services.">
+<meta name="keywords" content="contact fontixa, fontixa support, font generator contact">
+<meta name="author" content="Fontixa">
+<meta name="publisher" content="Fontixa">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://fontixa.com/contact">
+
+<!-- Social Preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Us – Fontixa">
+<meta property="og:description" content="Get in touch with Fontixa for support, feedback or inquiries.">
+<meta property="og:url" content="https://fontixa.com/contact">
+<meta property="og:site_name" content="Fontixa">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Contact Us – Fontixa">
+<meta name="twitter:description" content="Official contact page of Fontixa.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root{
+ --bg:#f8fafc;
+ --card:#ffffff;
+ --text:#2563eb;
+ --soft:#475569;
+ --primary:#2563eb;
+ --secondary:#7c3aed;
+ --border:#e2e8f0;
+ --shadow:0 10px 30px rgba(0,0,0,.06);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+ font-family:system-ui, Arial, sans-serif;
+ background:var(--bg);
+ color:var(--text);
+ line-height:1.7;
+}
+
+/* ===== HEADER ===== */
+header{
+  width:100%;
+  background:var(--card);
+
+  
+  border-bottom:1px solid var(--border);
+    position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+/* ===== NAVBAR ===== */
+.nav{
+  max-width:1200px;
+  margin:0 auto;
+  height:64px;              /* 🔥 FIXED NAV HEIGHT */
+  padding:0 16px;           /* vertical padding hata di */
+  display:flex;
+  align-items:center;       /* logo center me rahe */
+  justify-content:space-between;
+}
+
+/* ===== LOGO ===== */
+.logo{
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+}
+
+.logo img{
+  height:100px;
+  transition:transform .3s ease, filter .3s ease;
+}
+
+.logo:hover img{
+  transform:scale(1.06);
+  filter:drop-shadow(0 0 8px rgba(37,99,235,.5));
+}
+
+
+/* ===== MENU ===== */
+.menu{
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+
+.menu a{
+  text-decoration:none;
+  font-size:14.5px;
+  font-weight:500;
+  color:var(--text);
+  position:relative;
+  padding:6px 0;
+}
+
+/* hover underline */
+.menu a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:0%;
+  height:2px;
+  background:var(--primary);
+  transition:.25s ease;
+}
+
+.menu a:hover::after{
+  width:100%;
+}
+
+.menu a:hover{
+  color:var(--primary);
+}
+
+/* ===== ACTIVE LINK (OPTIONAL) ===== */
+.menu a.active{
+  color:var(--primary);
+  font-weight:600;
+}
+
+.menu a.active::after{
+  width:100%;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+  .logo img{
+    height:32px;
+  }
+
+  .menu{
+    gap:16px;
+  }
+
+  .menu a{
+    font-size:13.5px;
+  }
+}
+
+/* ===== SMALL MOBILE ===== */
+@media(max-width:480px){
+  .nav{
+    padding:8px 12px;
+  }
+
+  .menu{
+    gap:12px;
+  }
+}
+
+
+/* ===== PAGE ===== */
+.container{
+ max-width:1250px;
+ margin:22px auto;
+ padding:0 16px;
+}
+
+/* HERO */
+.contact-hero{
+  min-height:60vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:4px 6px;
+}
+
+.contact-card{
+  background:var(--card);
+  border:1px solid var(--border);
+  max-width:1250px;
+  width:100%;
+  padding:58px 36px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 20px 60px rgba(15,23,42,.08);
+}
+
+.contact-card h1{
+  margin:0 0 14px;
+  font-size:clamp(28px,4vw,44px);
+  font-weight:800;
+  letter-spacing:-.5px;
+}
+
+.contact-card p{
+  margin:0 auto 28px;
+  max-width:620px;
+  font-size:16px;
+  color:var(--muted);
+  line-height:1.7;
+}
+
+
+
+
+
+/* INFO LINE */
+.reply-time{
+  margin-top:18px;
+  font-size:14px;
+  color:var(--muted);
+}
+
+/* MOBILE */
+@media(max-width:520px){
+  .contact-card{
+    padding:36px 22px;
+  }
+}
+
+
+/* ===== CARD ===== */
+.card{
+ background:var(--card);
+ border:1px solid var(--border);
+ border-radius:14px;
+ padding:20px;
+ box-shadow:var(--shadow);
+}
+p{
+ font-size:15px;
+ margin-bottom:12px;
+}
+
+/* ===== FORM ===== */
+label{
+ display:block;
+ font-size:14px;
+ margin:10px 0 4px;
+ color:var(--soft);
+}
+input,textarea{
+ width:100%;
+ padding:10px;
+ border-radius:8px;
+ border:1px solid var(--border);
+ background:#ffffff;
+ color:var(--text);
+ outline:none;
+}
+textarea{min-height:110px;resize:vertical}
+input:focus,textarea:focus{
+ border-color:var(--primary);
+ box-shadow:0 0 0 3px rgba(37,99,235,.1);
+}
+
+button{
+ margin-top:14px;
+ padding:10px 18px;
+ border:none;
+ border-radius:10px;
+ background:linear-gradient(135deg,var(--primary),var(--secondary));
+ color:#ffffff;
+ font-size:15px;
+ font-weight:600;
+ cursor:pointer;
+}
+
+/* ===== FOOTER ===== */
+/* footer */
+.fontixa-footer.light{
+  margin-top:10px;
+  padding:4px 20px 20px;
+  background:#f8fafc;
+  color:#020617;
+
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:36px;
+
+  border-top:1px solid #e5e7eb;
+}
+
+/* ABOUT + SEO TEXT */
+.footer-about h3{
+  font-size:26px;
+  color:#2563eb;
+  margin-bottom:10px;
+}
+.footer-seo{
+  font-size:14px;
+  line-height:1.7;
+  color:#475569;
+  margin-bottom:10px;
+  max-width:560px;
+}
+.footer-trust{
+  font-size:13px;
+  color:#64748b;
+  margin-top:6px;
+}
+
+/* SOCIAL ICONS */
+.footer-social{
+  display:flex;
+  gap:12px;
+  margin-top:16px;
+}
+.footer-social a{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:18px;
+  text-decoration:none;
+  background:#e0e7ff;
+  color:#2563eb;
+
+  transition:.25s ease;
+}
+.footer-social a:hover{
+  background:#2563eb;
+  color:#ffffff;
+  transform:translateY(-2px);
+}
+
+/* LEGAL */
+.footer-legal h4{
+  font-size:16px;
+  margin-bottom:12px;
+  color:#020617;
+}
+.footer-legal a{
+  display:block;
+  font-size:14px;
+  color:#475569;
+  text-decoration:none;
+  margin-bottom:8px;
+  transition:.25s;
+}
+.footer-legal a:hover{
+  color:#2563eb;
+  transform:translateX(3px);
+}
+
+/* COPYRIGHT */
+.footer-copy{
+  grid-column:1 / -1;
+  margin-top:14px;
+  padding-top:14px;
+  border-top:1px solid #e5e7eb;
+  text-align:center;
+  font-size:13px;
+  color:#64748b;
+}
+
+/* MOBILE */
+@media(max-width:700px){
+  .fontixa-footer.light{
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+  .footer-copy{
+    text-align:left;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+
+  <header>
+    <div class="nav">
+      <a class="logo" href="index.html"><img src="fontixa-logo.png"  alt="Fontixa logo">
+      </a>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="Contactus.html">Contect</a>
+        <a href="Blog.html">Blog</a>
+      </div>
+    </div>
+  </header>
+<!-- ===== CONTENT ===== -->
+<div class="container">
+
+<section class="contact-hero">
+  <div class="contact-card">
+    <h1>Contact Fontixa – We’re Here to Help You</h1>
+    <p>
+      Have questions, feedback, or need support with our stylish font generator tools?
+      The Fontixa team is always ready to assist you.
+    </p>
+    <div class="reply-time">
+      ⏱️ We usually reply within 24 hours
+    </div>
+  </div>
+</section>
+
+<div class="card">
+
+<p>
+This Contact Us page is created to help users reach us easily for questions, feedback,
+support requests, or copyright concerns related to our font tools and services.
+</p>
+
+<form>
+ <label>Your Name</label>
+ <input type="text" placeholder="Enter your name">
+
+ <label>Your Email</label>
+ <input type="email" placeholder="Enter your email">
+
+ <label>Message</label>
+ <textarea placeholder="Write your message here..."></textarea>
+
+ <button type="submit">Send Message</button>
+</form>
+
+<p style="font-size:14px;color:var(--soft);margin-top:14px">
+⚠️ Fontixa never asks for passwords, OTPs or sensitive personal data.
+</p>
+
+</div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+ <footer>
+    <div class="fontixa-footer light">
+
+      <!-- BRAND + ABOUT -->
+      <div class="footer-about">
+        <h3>Fontixa</h3>
+
+        <p class="footer-seo">
+          Fontixa is a free fancy font generator that helps users create stylish text,
+          fancy fonts and Unicode symbols for Instagram, WhatsApp, Facebook, YouTube
+          and gaming usernames. You can generate cool fonts, stylish names and text art
+          instantly and copy-paste them anywhere without installing any app.
+        </p>
+
+        <p class="footer-seo">
+          Our stylish font generator works online on all modern devices and browsers,
+          making it easy to design unique Instagram bios, captions, profile names,
+          WhatsApp status text and creative social media content.
+        </p>
+
+        <p class="footer-trust">
+          All fonts on Fontixa are generated using standard Unicode characters and are
+          provided for styling and personal use only.
+        </p>
+
+        <!-- SOCIAL ICONS -->
+        <div class="footer-social">
+          <a href="https://www.instagram.com/earntrim_official?igsh=MW5sMXkyNGNqc3JmdA==" aria-label="Instagram"
+            title="Instagram">📸</a>
+          <a href="https://www.facebook.com/1nehakhan1" aria-label="Facebook" title="Facebook">📘</a>
+          <a href="https://youtube.com/@earntirm?si=HAmVABwZoij64qtm" aria-label="YouTube" title="YouTube">▶️</a>
+          <a href="Hey, I'm using Telegram to chat. Join me! Download it here: https://telegram.org/dl"
+            aria-label="Telegram" title="Telegram">✈️</a>
+        </div>
+      </div>
+
+      <!-- LEGAL LINKS -->
+      <div class="footer-legal">
+        <h4>Legal</h4>
+        <a href="privacypolicy-.html">Privacy Policy</a>
+        <a href="tirmandcondition.html">Terms & Conditions</a>
+        <a href="Disclaimer.html">Disclaimer</a>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer-copy">
+        © <span id="fx-year"></span> <strong>Fontixa</strong>. All rights reserved.
+        Use of this website indicates acceptance of our Terms, Privacy Policy and Disclaimer.
+      </div>
+
+    </div>
+    <script>
+      document.getElementById("fx-year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+
+<!-- ===== GOOGLE CONTACT PAGE SCHEMA ===== -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ContactPage",
+ "name": "Contact Fontixa",
+ "url": "https://fontixa.com/contact",
+ "description": "Official contact page of Fontixa for support, feedback and inquiries.",
+ "publisher": {
+   "@type": "Organization",
+   "name": "Fontixa",
+   "url": "https://fontixa.com"
+ }
+}
+</script>
+
+<!-- ===== JS ===== -->
+<script>
+function toggleMenu(){
+ document.getElementById("navMenu").classList.toggle("show");
+}
+document.querySelectorAll(".nav a").forEach(link=>{
+ link.addEventListener("click",()=>{
+  document.getElementById("navMenu").classList.remove("show");
+ });
+});
+</script>
+
+</body>
+</html>
